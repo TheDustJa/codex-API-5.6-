@@ -4,7 +4,7 @@
 
 ## Recommended GitHub Description
 
-Fix Codex / ChatGPT desktop API-key model picker so custom OpenAI-compatible gateways can show GPT-5.6 models such as gpt-5.6-sol, terra and luna.
+Fix Codex / ChatGPT desktop API-key model picker. Open the included Chinese TXT file, copy the repair prompt inside, and run it with Codex to show GPT-5.6 models.
 
 ## Recommended GitHub Topics
 
@@ -84,12 +84,12 @@ GitHub topic 建议使用短横线、小写英文，优先选择用户会搜索�
 
 可以在 README、Issues、Release、社交平台或博客摘要中复用这些自然语言描述：
 
-- Fix Codex API mode not showing GPT-5.6 models returned by a custom OpenAI-compatible gateway.
-- ChatGPT Windows desktop app hides gpt-5.6-sol in API Key mode because of model picker filtering.
-- OpenAI.Codex app.asar compatibility patch for custom model providers and hidden models.
-- Codex app-server returns GPT-5.6 but the desktop model picker does not display Sol, Terra or Luna.
-- 修复 Codex 使用 API Key 登录时模型列表没有 GPT-5.6 的问题。
-- 修复 ChatGPT Windows 桌面应用自定义网关模型被隐藏的问题。
+- Open the included `修复ChatGPT API登录时没有5.6模型.txt`, copy the repair prompt inside, and run it with Codex.
+- Fix Codex API mode not showing GPT-5.6 models by using the prompt included in the TXT file.
+- ChatGPT Windows desktop app hides gpt-5.6-sol in API Key mode; use the included TXT prompt with Codex.
+- Codex app-server returns GPT-5.6 but the desktop model picker does not display Sol, Terra or Luna; open the TXT file and copy its prompt.
+- 打开 `修复ChatGPT API登录时没有5.6模型.txt`，复制文件里面的修复提示词，让 Codex 执行。
+- 修复 Codex 使用 API Key 登录时模型列表没有 GPT-5.6 的问题，入口是仓库根目录的 TXT 文件。
 
 ## Notes
 
