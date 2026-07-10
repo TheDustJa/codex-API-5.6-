@@ -1,5 +1,17 @@
 # Codex API 5.6 Model Fix
 
+## 加入 AI 大模型交流群
+
+[点击链接加入群聊【AI大模型交流群】](https://qm.qq.com/q/vQNgELRi2Q)
+
+<img src="assets/ai-model-qq-group-qrcode.jpg" alt="AI 大模型交流群 QQ 群二维码" width="360">
+
+群号：`1056903023`
+
+需要使用 Codex / ChatGPT API 模式显示 GPT-5.6 的用户，可以直接打开下面的完整中文修复教程，在文档的 **“11.6 Codex app 无法显示 GPT-5.6 模型”** 章节里复制修复提示词，然后粘贴给 Codex 执行。
+
+- [打开完整中文修复教程](docs/chatgpt-codex-gpt-5.6-api-key-model-picker-fix.zh-CN.md#116-codex-app-无法显示-gpt-56-模型)
+
 让 OpenAI Codex / ChatGPT 桌面应用在 API Key 模式、自定义 API 网关、自定义模型服务场景下显示 GPT-5.6 模型，例如 `gpt-5.6-sol`、`gpt-5.6-terra`、`gpt-5.6-luna`。
 
 This repository documents a local compatibility patch for the OpenAI Codex / ChatGPT desktop app model picker. It helps API-key users with a custom OpenAI-compatible gateway expose GPT-5.6 models returned by the local app-server, without modifying the original Microsoft Store installation.
@@ -38,6 +50,7 @@ authMethod !== "apikey"
 ## 文档入口
 
 - [完整中文修复教程](docs/chatgpt-codex-gpt-5.6-api-key-model-picker-fix.zh-CN.md)
+- [Codex 5.6 一键修复提示词位置](docs/chatgpt-codex-gpt-5.6-api-key-model-picker-fix.zh-CN.md#116-codex-app-无法显示-gpt-56-模型)
 - [原始排查记录](修复ChatGPT%20API登录时没有5.6模型.txt)
 - [关键词与 GitHub Topics 建议](docs/keywords-and-topics.md)
 
